@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+ <title id="title">American Muscle of Tehachapi</title>
+ <desc id="desc">Orange arched hot rod style wordmark on a transparent background.</desc>
+ <defs>
+  <linearGradient id="orange" x1="0" y1="0" x2="0" y2="1">
+   <stop offset="0" stop-color="#ffb13b"/><stop offset=".48" stop-color="#ff7a18"/><stop offset="1" stop-color="#e84b0b"/>
+  </linearGradient>
+  <path id="arch" d="M 150,390 C 250,100 950,100 1050,390"/>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+   <feGaussianBlur in="SourceAlpha" stdDeviation="5" result="blur"/><feOffset dy="7" result="offset"/><feComponentTransfer><feFuncA type="linear" slope=".42"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+ </defs>
+ <g filter="url(#shadow)">
+  <text fill="url(#orange)" stroke="#68240d" stroke-width="16" stroke-linejoin="round" paint-order="stroke fill" font-family="Impact, 'Arial Black', sans-serif" font-weight="900" font-size="91" letter-spacing="5">
+   <textPath href="#arch" startOffset="50%" text-anchor="middle">AMERICAN MUSCLE</textPath>
+  </text>
+  <text fill="#fff0d7" stroke="#68240d" stroke-width="13" stroke-linejoin="round" paint-order="stroke fill" font-family="Impact, 'Arial Black', sans-serif" font-weight="900" font-size="59" letter-spacing="11" text-anchor="middle" x="600" y="470">OF TEHACHAPI</text>
+  <path d="M240 520 Q600 610 960 520" fill="none" stroke="url(#orange)" stroke-width="17" stroke-linecap="round"/>
+  <path d="M360 568 Q600 620 840 568" fill="none" stroke="#68240d" stroke-width="7" stroke-linecap="round" opacity=".9"/>
+  <path d="M164 438 l72 -16 -39 39 57 -7 -76 50 20 -39z" fill="url(#orange)" stroke="#68240d" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M1036 438 l-72 -16 39 39 -57 -7 76 50 -20 -39z" fill="url(#orange)" stroke="#68240d" stroke-width="7" stroke-linejoin="round"/>
+ </g>
+</svg>
