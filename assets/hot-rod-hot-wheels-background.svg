@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-label="Dark hot rod background with repeating Hot Wheels text and flame accents">
+ <defs>
+  <linearGradient id="bg" x2="0.15" y2="1"><stop stop-color="#22252b"/><stop offset=".55" stop-color="#111317"/><stop offset="1" stop-color="#292b30"/></linearGradient>
+  <linearGradient id="flame" x1="0" x2="1" y1="1" y2="0"><stop stop-color="#ffb21c"/><stop offset=".45" stop-color="#ff4a16"/><stop offset="1" stop-color="#d51622"/></linearGradient>
+  <pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse">
+   <circle cx="8" cy="13" r="1" fill="#fff" opacity=".08"/><circle cx="66" cy="27" r=".8" fill="#fff" opacity=".06"/><circle cx="34" cy="74" r=".8" fill="#fff" opacity=".07"/><circle cx="89" cy="91" r="1" fill="#fff" opacity=".05"/>
+  </pattern>
+  <pattern id="repeat" width="540" height="260" patternUnits="userSpaceOnUse" patternTransform="rotate(-12)">
+   <g opacity=".17" transform="translate(20 65)">
+    <path d="M5 46 C38 37 36 15 56 3 C52 22 66 25 83 16 C76 34 62 38 43 41 C76 44 92 30 110 24 C101 43 86 52 66 55 C91 60 110 55 128 48 C118 66 99 72 72 72 L7 72Z" fill="url(#flame)"/>
+    <text x="36" y="65" font-family="Impact, 'Arial Black', sans-serif" font-size="32" font-style="italic" font-weight="900" letter-spacing="-1.5" fill="#f6f4ee" stroke="#a8141d" stroke-width="1.7" paint-order="stroke">HOT WHEELS</text>
+   </g>
+   <g opacity=".09" transform="translate(285 190) scale(.72)">
+    <path d="M5 46 C38 37 36 15 56 3 C52 22 66 25 83 16 C76 34 62 38 43 41 C76 44 92 30 110 24 C101 43 86 52 66 55 C91 60 110 55 128 48 C118 66 99 72 72 72 L7 72Z" fill="url(#flame)"/>
+    <text x="36" y="65" font-family="Impact, 'Arial Black', sans-serif" font-size="32" font-style="italic" font-weight="900" letter-spacing="-1.5" fill="#f6f4ee" stroke="#a8141d" stroke-width="1.7" paint-order="stroke">HOT WHEELS</text>
+   </g>
+  </pattern>
+  <radialGradient id="shade"><stop offset=".35" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".52"/></radialGradient>
+ </defs>
+ <rect width="1600" height="1000" fill="url(#bg)"/>
+ <path d="M-150 785 C260 650 585 830 920 680 C1200 555 1390 610 1750 400 L1750 535 C1390 745 1200 690 920 820 C580 980 250 780 -150 930Z" fill="url(#flame)" opacity=".88"/>
+ <path d="M-130 818 C270 700 570 875 910 740 C1205 625 1400 668 1720 480" fill="none" stroke="#ffd064" stroke-width="10" opacity=".72"/>
+ <rect width="1600" height="1000" fill="url(#repeat)"/>
+ <rect width="1600" height="1000" fill="url(#grain)"/>
+ <rect width="1600" height="1000" fill="url(#shade)"/>
+</svg>
